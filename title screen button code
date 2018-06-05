@@ -1,0 +1,14 @@
+using System.Collections.Generic;
+using UnityEngine;
+using System.Collections;
+using System.Runtime.Remoting;
+using UnityEngine.SceneManagement;
+
+public class Urmumlum : MonoBehaviour
+{
+    public void LoadByIndex(int sceneIndex)
+    {
+        SceneManager.LoadScene(1);
+    }
+
+}
